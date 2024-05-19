@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.openway.submission.AppTest" time="0.195" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/xoir/Documents/GitHub/OpenWay-Submission/calculate/target/test-classes:/Users/xoir/Documents/GitHub/OpenWay-Submission/calculate/target/classes:/Users/xoir/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/xoir/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/xoir/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/xoir/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/xoir/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/xoir/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/xoir/Documents/GitHub/OpenWay-Submission/calculate/target/surefire/surefirebooter4368182888241899062.jar /Users/xoir/Documents/GitHub/OpenWay-Submission/calculate/target/surefire 2024-05-19T20-52-55_378-jvmRun1 surefire15061180930723450695tmp surefire_06265732297355888441tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/xoir/Documents/GitHub/OpenWay-Submission/calculate/target/test-classes:/Users/xoir/Documents/GitHub/OpenWay-Submission/calculate/target/classes:/Users/xoir/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/xoir/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/xoir/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/xoir/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/xoir/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/xoir/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/xoir"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/xoir/Documents/GitHub/OpenWay-Submission/calculate"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/xoir/Documents/GitHub/OpenWay-Submission/calculate/target/surefire/surefirebooter4368182888241899062.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.3"/>
+    <property name="user.name" value="xoir"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/xoir/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/53/0tch9sc56tn2yl92084_1tvh0000gn/T/"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="/Users/xoir/Documents/GitHub/OpenWay-Submission/calculate"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/xoir/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testLargeNumbers" classname="com.openway.submission.AppTest" time="0.003"/>
+  <testcase name="testMixedSigns" classname="com.openway.submission.AppTest" time="0"/>
+  <testcase name="testNegativeNumbers" classname="com.openway.submission.AppTest" time="0"/>
+  <testcase name="testPositiveNumbers" classname="com.openway.submission.AppTest" time="0"/>
+  <testcase name="testSmallNumbers" classname="com.openway.submission.AppTest" time="0"/>
+  <testcase name="testZeroDenominator" classname="com.openway.submission.AppTest" time="0"/>
+  <testcase name="testZeroDivision" classname="com.openway.submission.AppTest" time="0"/>
+</testsuite>
